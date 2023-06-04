@@ -4,7 +4,6 @@ Utilities for `serde`:
 
 - `deserializer.deserialize_t(TypedVisitor::<T>::default())` makes visiting common types easy
 - `#[serde(skip_serializing_if = "sertools::is_default")]` allows avoiding serialization of default values
-- `struct Foo(T); sertools::transparent!(Foo);` derives `Serialize` and `Deserialize` using the inner type
 
 ## License
 
